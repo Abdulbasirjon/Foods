@@ -1,0 +1,22 @@
+.fil-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgb(0 0 0 / 7%);
+    cursor: pointer;
+    margin: 20px auto;
+    padding: 25px 40px;
+    main{
+        padding: 0 15px;
+        width: 40%;
+        display: block;
+    }
+}
+.filial-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
