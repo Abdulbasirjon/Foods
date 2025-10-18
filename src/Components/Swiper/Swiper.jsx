@@ -16,7 +16,7 @@ export default function App() {
       loop: true, 
       on: {
         slideChange(s) {
-          console.log("Slide changed", s);
+          // console.log("Slide changed");
         },
       },
     });

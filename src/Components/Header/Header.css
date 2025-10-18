@@ -94,7 +94,36 @@
     font-weight: bold;
     cursor: pointer;
 }
-
+.menu-bar{
+    width: 170px;
+    height: 200px;
+    position: fixed;
+    top: 75px;
+    right: 15px;
+    z-index: 548;
+    background-color: white;
+    ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+.nav-link{
+    margin: 15px 0;
+    &:hover{
+        background-color: white;
+        padding: 0;
+    }
+}
+#nav-links{
+    margin: 10px 0;
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: red;
+}
 
 
 @media (max-width:768px){

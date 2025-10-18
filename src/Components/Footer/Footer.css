@@ -61,7 +61,8 @@
     }
 }
 .her{
-    width: 1150px;
+    width: 90%;
+    margin: 0 auto;
     padding: 10px auto;
     border: 1px solid white;
 }
